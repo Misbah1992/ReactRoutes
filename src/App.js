@@ -1,10 +1,10 @@
-
+import LoginScreen from "./components/loginScreen/LoginScreen";
 
 function App() {
   return (
-    <div>
-      ggg
-    </div>
+    <>
+      <LoginScreen/>
+    </>
   );
 }
 
