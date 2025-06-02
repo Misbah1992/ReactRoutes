@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div>
       <h1>Welcome, {user?.username}</h1>
+       <h1>Welcome, {user?.email}</h1>
       <button onClick={() => dispatch(logout())}>Logout</button>
     </div>
   );
