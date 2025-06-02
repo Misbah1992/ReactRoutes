@@ -15,7 +15,6 @@ export default function LoginScreen() {
   };
 
   return (
-  // <button onClick={handleLogin}>Login</button>;
   <div style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100vh"}}>
     <div className='container'>
          <div className='input-feild'>Username</div>
